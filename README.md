@@ -1,7 +1,8 @@
-    Domain: ​
+This Project analyzes and derives insights from data related to the film and entertainment industry to understand trends, audience preferences, and other key metrics.
 
-Film and Entertainment​
 
-  Objective:​
+## My Data Visualization Projects
 
- To analyze and derive insights from data related to the film and entertainment industry to understand trends, audience preferences, and other key metrics.
+Check out my visualization on Tableau Public: [View Visualization]
+
+https://public.tableau.com/views/EntertainerCareerAnalysisDashboard/Dashboard2?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
