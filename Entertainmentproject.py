@@ -1,11 +1,15 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
+
+# Set the path to the directory containing the data files
+data_dir = 'data'
 
 # Load the data
-basic_info = pd.read_excel('/Users/vandana/Downloads/Entertainer Data Analysis 2/Entertainer - Basic Info.xlsx')
-breakthrough_info = pd.read_excel('/Users/vandana/Downloads/Entertainer Data Analysis 2/Entertainer - Breakthrough Info.xlsx')
-last_work = pd.read_excel('/Users/vandana/Downloads/Entertainer Data Analysis 2/Entertainer - Last work Info.xlsx')
+basic_info = pd.read_excel(os.path.join(data_dir,'/Users/vandana/Downloads/Entertainer Data Analysis 2/Entertainer - Basic Info.xlsx'))
+breakthrough_info = pd.read_excel(os.path.join(data_dir,'/Users/vandana/Downloads/Entertainer Data Analysis 2/Entertainer - Breakthrough Info.xlsx'))
+last_work = pd.read_excel(os.path.join(data_dir,'/Users/vandana/Downloads/Entertainer Data Analysis 2/Entertainer - Last work Info.xlsx'))
 
 # Display the first few rows of each dataframe
 print("Entertainment Basic")
